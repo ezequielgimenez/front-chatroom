@@ -10,8 +10,8 @@
     "parcel": "^2.10.3"
   },
   "scripts": {
-    "start": "parcel serve ./src/index.html",
-    "build": "parcel build .src/index.html"
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir build --public-url /piedra-papel-tijera"
   },
   "devDependencies": {
     "buffer": "^5.5.0||^6.0.0",
