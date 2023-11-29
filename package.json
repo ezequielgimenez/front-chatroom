@@ -11,7 +11,7 @@
   },
   "scripts": {
     "dev": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html --dist-dir build --public-url /piedra-papel-tijera"
+    "build": "parcel build ./src/index.html --dist-dir build --public-url /front-chatroom"
   },
   "devDependencies": {
     "buffer": "^5.5.0||^6.0.0",
