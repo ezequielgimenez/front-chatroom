@@ -1,0 +1,25 @@
+{
+  "name": "7-segundo-front-chatrooms",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@vaadin/router": "^1.7.5",
+    "dotenv": "^16.3.1",
+    "firebase": "8.2.3",
+    "lodash": "^4.17.21",
+    "parcel": "^2.10.3"
+  },
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build .src/index.html"
+  },
+  "devDependencies": {
+    "buffer": "^5.5.0||^6.0.0",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.1.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.0",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0"
+  }
+}
